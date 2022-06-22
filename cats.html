@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats random images</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="option">
+          <a href="index.html"><i class="fa fa-home fa-fw"></i> Home</a>
+        </li>
+        <li class="option active">
+          <a href="cats.html"><i class="fa fa-image fa-fw"></i> Cats</a>
+        </li>
+        <li class="option">
+          <a href="dogs.html"><i class="fa fa-image fa-fw"></i> Dogs</a>
+        </li>
+        <li class="option right">
+          <a href="#"> <i class="fa fa-github fa-fw"></i>GitHub</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="image">
+        <span id="result" align="center"></span>
+      </div>
+      <div class="center-button">
+        <button onclick="getRandomCatImage()">Random image</button>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+    <footer><i class="fa fa-code fa-fw"></i> by <a href="https://github.com/nameless0u0" target="_blank">nameless0u0</a> </footer>
+  </body>
+</html>

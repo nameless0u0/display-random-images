@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+}
+
+body {
+ margin: 0;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(172, 237, 137);
+}
+
+.option {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.option a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  background-color: rgb(172, 237, 137);
+}
+
+.option a:hover {
+  color: rgb(75, 75, 75);
+  background-color: rgb(61, 159, 8);
+}
+
+.active a {
+  background-color: rgb(61, 159, 8);
+}
+
+img {
+  margin: 10px auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.center-button {
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(78, 195, 15);
+}
+
+button:hover {
+  background-color: rgb(61, 159, 8);;
+}
+
+@media screen and (max-width: 900px) {
+  ul li footer {
+    float: none;
+  }
+
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.main p {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  margin: 0;
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(172, 237, 137);
+  flex: 0 0 auto;
+}
